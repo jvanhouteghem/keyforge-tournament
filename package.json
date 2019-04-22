@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:prod1": "http-server ./app -a 0.0.0.0 -p 8000 -c-1",
+    "start:prod2": "ng serve -a 0.0.0.0 -p 8000 -c-1",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
